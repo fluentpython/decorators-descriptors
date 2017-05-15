@@ -1,6 +1,7 @@
-"""Simple decorator examples"""
+"""Simple decorator example"""
 
 def floatify(f):
     def floated(n):
-        return float(f(n))
+        result = f(n)
+        return float(result)
     return floated
