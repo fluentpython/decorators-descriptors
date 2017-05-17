@@ -7,5 +7,4 @@ def fibonacci(n):
     return fibonacci(n-2) + fibonacci(n-1)
 
 if __name__=='__main__':
-    import pdb; pdb.set_trace()
-    print(fibonacci(20))
+    print(fibonacci(7))

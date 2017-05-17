@@ -1,7 +1,7 @@
 import time
 from clockdeco_param import clock
 
-@clock
+@clock()
 def snooze(seconds):
     time.sleep(seconds)
 
